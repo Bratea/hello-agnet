@@ -1,0 +1,32 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+*.iml
+
+# Local memory DB
+memory_data/
+**/memory_data/
+*.db
+
+# Frontend (day003 tripAgent)
+day003/tripAgent/frontend/node_modules/
+day003/tripAgent/frontend/dist/
+
+# Frontend (day003 DeepResearchAssistant)
+day003/DeepResearchAssistant/fronted/node_modules/
+day003/DeepResearchAssistant/fronted/dist/
+
+# Runtime cache & generated notes
+day003/DeepResearchAssistant/baken/cache/
+day003/DeepResearchAssistant/baken/research_notes/
+
+# CyberTown runtime logs & Godot cache
+day003/CyberTown/baken/logs/
+day003/CyberTown/fronted/.godot/
+
+# IDE
+.vscode/
